@@ -131,7 +131,7 @@ class ManageTasksFragment : Fragment() {
 
             // Add to database
             mTasksViewModel.updateTask(Tasks(taskId, taskTitle, taskDesc, taskDateTimeUpdated, prioritySelected))
-            Toast.makeText(context, "Updated", Toast.LENGTH_SHORT).show()
+            Toast.makeText(context, "Successfully Updated", Toast.LENGTH_SHORT).show()
 
             findNavController().navigate(R.id.action_manageTasksFragment_to_tasksListFragment)
         }

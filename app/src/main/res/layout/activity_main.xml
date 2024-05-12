@@ -12,7 +12,7 @@
         android:scaleType="fitXY"
         android:id="@+id/btn_cat_tasks"
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        android:layout_width="202dp"
+        android:layout_width="201dp"
         android:layout_height="196dp"
         android:contentDescription="Tasks Button"
         android:minWidth="88dip"
