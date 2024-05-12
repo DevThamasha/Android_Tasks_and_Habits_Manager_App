@@ -157,7 +157,7 @@ class ManageTasksFragment : Fragment() {
         val alertBuilder = AlertDialog.Builder(requireContext())
 
         alertBuilder.setTitle("Delete Task - $taskTitle")
-        alertBuilder.setMessage("Are you sure you want to delete")
+        alertBuilder.setMessage("Do you really want to delete")
 
         alertBuilder.setPositiveButton("YES"){ dialog , which ->
             // Delete Task from DB
