@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Tasks&amp;Habits</string>
+
+
+    <string-array name="habits_tag_array">
+        <item>Education</item>
+        <item>Office Work</item>
+        <item>Meditation</item>
+        <item>Default</item>
+    </string-array>
+
+    <string-array name="tasks_priority_array">
+        <item>High Priority</item>
+        <item>Medium Priority</item>
+        <item>Low Priority</item>
+    </string-array>
+
+</resources>
